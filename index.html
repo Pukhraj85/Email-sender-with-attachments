@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send email</title>
+</head>
+<body>
+    <form action="/sendemail" method="post" enctype="multipart/form-data">
+        
+        
+        From: <input type="email" name="from" id="from"><br><br>
+        To: <input type="email" name="to" id="to"><br><br>
+        Subject: <input type="text" name="subject" id="subject"><br><br>
+        Message:<br> <textarea id="message" name="message"></textarea> <br><br>
+        
+        
+        
+        <input type="file" name="file" multiple id="">
+        <button type="submit">Send Email</button>
+    </form>
+</body>
+</html>
